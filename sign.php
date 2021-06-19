@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Styles Personalized -->
+        <link rel="stylesheet" href="assets/css/style.css">
         <title>Facebook</title>
     </head>
     <body>
@@ -16,8 +18,8 @@
             <div class="right-side">
                 <div class="error"></div>
 
-                <h1>Create an account</h1>
-                <div>It's free and always will be</div>
+                <h1 style="color:#212121;">Create an account</h1>
+                <div style="color:#212121; font-size:20px;">It's free and always will be</div>
 
                 <form action="sign.php" method="post" name="user-sign-up">
                     <div class="sign-up-form">
