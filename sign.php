@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Styles Personalized -->
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="shortcut icon" href="#">
         <title>Facebook</title>
     </head>
     <body>
@@ -34,7 +35,7 @@
                         </div>
 
                         <div class="sign-up-password">
-                            <input type="password" name="up-password" id="up-password" class="text-input">
+                            <input type="password" name="up-password" id="up-password" class="text-input" placeholder="Password">
                         </div>
 
                         <div class="sign-up-birthday">
@@ -63,5 +64,8 @@
                 </form>
             </div><!-- /.right-side -->
         </div><!-- / .main -->
+
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/app.js"></script>
     </body>
 </html>
